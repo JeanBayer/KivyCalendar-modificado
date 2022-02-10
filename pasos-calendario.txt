@@ -1,0 +1,23 @@
+El nuevo proyecto usa un calendario, hay que instalar desde la terminal al pc
+
+pip install KivyCalendar
+
+y luego ubicarse en
+
+/home/lab2/.local/lib/python3.8/site-packages/KivyCalendar
+
+que es el lugar donde estan los archivos que instalamos y lo reemplazamos por los adjuntados, que son los mismos nombre pero con un ligero cambio
+
+
+*si la rotuladora sufre el problema del touch, dentro de la terminal introducir el siguiente comando
+
+sudo adduser $USER input
+
+en el caso de que el teclado se oprima doble, hacer lo siguiente
+
+sudo deluser $USER input
+
+cd /dev/input
+sudo chmod 777 event*
+
+esto es para habilitar temporalmente el input, hasta que se reinicie
